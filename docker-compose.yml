@@ -10,8 +10,8 @@ services:
     environment:
       - N8N_HOST=n8n.tabayn.sa          # غيّر الدومين
       - N8N_PORT=5678
-      - N8N_PROTOCOL=https
-      - WEBHOOK_URL=https://n8n.tabayn.sa/
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://n8n.tabayn.sa/
       - GENERIC_TIMEZONE=Asia/Riyadh
     volumes:
       - ./n8n_data:/home/node/.n8n
